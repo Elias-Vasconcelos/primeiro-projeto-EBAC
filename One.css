@@ -3,11 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header{
-    padding: 20px 0;
+
     background-color: #182c61;
     color: #ecf0f1;
-
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+header h1{
+    font-family: 'Bungee', sans-serif;
+}
+section h2{
+    font-family: 'Bungee', sans-serif;
+    color: #182c61;
 }
 header nav li {
     display: inline;
@@ -20,6 +31,8 @@ header nav li a{
     border: 2px solid #ecf0f1;
     margin: 0 20px;
     border-radius: 20%;
+    font-size: 15px;
+
 }
 .conteiner{
     max-width: 1280px;
@@ -28,4 +41,31 @@ header nav li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.conteiner img{
+    width: 600px;
+    height: 600px;
+}
+.marcas img{
+    height: 50px;
+    width: 50px;
+    width: auto;
+    display: inline;
+    margin-right: 12px;
+}
+section .conteiner{
+    align-items:flex-start
+}
+section{
+    padding: 24px 0;
+    color: #0a1dc4d0;
+}
+section h2{
+    margin-bottom: 16px;
+}
+section p{
+    margin-bottom:  8px;
+}
+section .stor-front{
+    margin-right: 32px;
 }
