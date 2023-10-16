@@ -8,7 +8,7 @@ body{
 }
 header{
 
-    background-color: #182c61;
+    background-color: #da0f96;
     color: #ecf0f1;
     font-family: 'Bungee', sans-serif;
     font-weight: normal;
@@ -18,7 +18,7 @@ header h1{
 }
 section h2{
     font-family: 'Bungee', sans-serif;
-    color: #182c61;
+    color: #ac1010;
 }
 header nav li {
     display: inline;
@@ -78,8 +78,8 @@ section .stor-front{
     align-items: center;
     width: 50px;
     height: 50px;
-    background:  #182c61;
-    border: 2px solid #2603bee1;
+    background:  #da0f96;
+    border: 2px solid #da0f96;
     border-radius: 50%;
     font-size: 20px;
     color: #fffefe;
@@ -94,7 +94,7 @@ section .stor-front{
     left: 0;
     width: 0;
     height: 100%;
-    background: #2603bee1;
+    background: #ac1010;
     z-index: -1;
     transition: 1s;
 }
@@ -106,7 +106,7 @@ section .stor-front{
 #FORMULARIO .conteiner{
     display: block;
     font-family: 'Bungee', sans-serif;
-    color: #182c61;
+    color: #ac1010;
 }
 .CONTEINERS{
     display: flex;
@@ -130,14 +130,14 @@ textarea{
     margin-bottom: 16px;
 }
 form button{
-        background: #182c61;
+        background: #da0f96;
         color: #fff;
         font-family: 'Bungee', sans-serif;
         border-radius: 18%;
         cursor: pointer;
 }
 form button:hover{
-    background: #6c8eeb;
+    background: #da0f96a4;
 }
 form input, textarea{
     font-family: 'Roboto', sans-serif;
@@ -146,10 +146,10 @@ form input, textarea:focus{
     outline-color: aqua;
 }
 footer{
-    position: absolute;
-    display: flex;
-    background: #182c61;
+    position: relative;
+    display: inline;
+    background: #da0f96;
     color: #fff;
-    padding: 16px 0;
-
+    padding: 9px ;
+    width: 100%;
 }
